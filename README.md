@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 I am a Student and currently pursuing MBA-Tech
 ----------------------------------------------
 
-Data Science, Artificial Intelligence , Machine Learning , Deep Learning all these buzzing words has caught my eyes . I have been coding since 2021 First I started with C++ then resorted to Python and got a hook of it. Now I am also pursuing a online course (CCE – IIT Madras – Advanced Certification in Data Science and AI ) . Recently Started using Kaggle , and I wanted to solve world problems through understanding the 'DATA'
+Data Science, Artificial Intelligence , Machine Learning , Deep Learning all these buzzing words has caught my eyes . I have been coding since 2021 First I started with C++ then resorted to Python and got a hook of it. Now I am also pursuing a online course (CCE – IIT Madras – Advanced Certification in Data Science and AI ) . Recently Started using Kaggle. I wanted to solve world problems through understanding the 'DATA'
 
 * 🌍  I'm based in INDIA
 * ✉️  You can contact me at [sangarerishi@gmail.com](mailto:sangarerishi@gmail.com)
