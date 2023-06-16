@@ -1,16 +1,16 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Rishi Sangare
 =====================================================================================================================================
 
-I am a Student and currently pursuing MBA-Tech
-----------------------------------------------
+Student pursuing a carreer in Ai/ML
+-----------------------------------
 
 Data Science, Artificial Intelligence , Machine Learning , Deep Learning all these buzzing words has caught my eyes . I have been coding since 2021 First I started with C++ then resorted to Python and got a hook of it. Now I am also pursuing a online course (CCE – IIT Madras – Advanced Certification in Data Science and AI ) . Recently Started using Kaggle. I wanted to solve world problems through understanding the 'DATA'
 
-* 🌍  I'm based in INDIA
-* ✉️  You can contact me at [sangarerishi@gmail.com](mailto:sangarerishi@gmail.com)
-* 🧠  I'm learning Machine Learning | Deep Learning | Neural Networks
-* 🤝  I'm open to collaborating on Machine Learning related Projects
-* ⚡  Really wanted to start my own Startup!!!
+* 🌍  I'm based in India
+* ✉️  You can contact me at [sangarerishi@gmail.com](mailto:sangarerishi@gmail.com)
+* 🧠  I'm learning Data Science / Machine Learning / Neural Networks
+* 🤝  I'm open to collaborating on Startup/ ML projects
+* ⚡  Really wanted to start my own startup!!
 
 <a href="https://www.twitter.com/rishi_sangare" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/twitter/follow/rishi_sangare?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917"
