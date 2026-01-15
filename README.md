@@ -1,24 +1,154 @@
-# 💫 About Me:
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Rishi Sangare<br><br>Student pursuing a career in Ai/ML<br>-----------------------------------<br><br>Data Science, Artificial Intelligence , Machine Learning , Deep Learning all these buzzing words has caught my eyes . I have been coding since 2021 First I started with C++ then resorted to Python and got a hook of it. Now I am also pursuing a online course (CCE – IIT Madras – Advanced Certification in Data Science and AI ) . Recently Started using Kaggle. I wanted to solve world problems through understanding the 'DATA'<br><br>* 🌍  I'm based in India<br>* ✉️  You can contact me at [sangarerishi@gmail.com](mailto:sangarerishi@gmail.com)<br>* 🧠  I'm learning Data Science / Machine Learning / Neural Networks<br>* 🤝  I'm open to collaborating on Startup/ ML projects<br>* ⚡  Really wanted to start my own startup!!<br>
+# Rishi Sangare
 
+**Backend & LLM Systems Engineer**
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/rishi-sangare) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/rishi-sangare) 
-
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![IOS](https://img.shields.io/badge/IOS-%2320232a.svg?style=for-the-badge&logo=apple&logoColor=white) ![ANDROID](https://img.shields.io/badge/android-%2320232a.svg?style=for-the-badge&logo=android&logoColor=%a4c639) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=rishi-sangare&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=rishi-sangare&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=rishi-sangare&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🐦 Latest Tweet
-[![](https://gtce.itsvg.in/api?username=rishi-sangare)](https://github.com/VishwaGauravIn/github-twitter-card-embed)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/Rishi-19)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sangarerishi@gmail.com)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=rishi-sangare&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## What I Do
+
+I build **production-grade backend systems** with a focus on LLM integration, search infrastructure, and cloud deployment. I specialize in taking complex, ambiguous requirements and turning them into structured, reliable, and testable systems.
+
+```
+LLM APIs → Structured Pipelines → Validated Outputs → Production Deployment
+```
+
+---
+
+## Technical Stack
+
+| Domain | Technologies |
+|--------|-------------|
+| **Backend** | Python, FastAPI, Flask, REST APIs |
+| **Cloud** | AWS (ECS, ECR, Lambda, API Gateway, CDK), Linode, Docker |
+| **Search** | Elasticsearch, OpenSearch, Hybrid Search (BM25 + Vector) |
+| **AI/ML** | LLM APIs (OpenAI, Claude), RAG Systems, Model Fine-tuning |
+| **DevOps** | GitHub Actions, Blue-Green Deployment, CloudWatch |
+
+---
+
+## Systems I've Built
+
+### 1. Recruiter Copilot — LLM + Search Pipeline
+
+Production system that evaluates candidates against job descriptions using search + LLM reasoning.
+
+```mermaid
+flowchart LR
+    A[Job Description] --> B[Feature Extraction]
+    B --> C[Search Query Generation]
+    C --> D[OpenSearch]
+    D --> E[Candidate Shortlist]
+    E --> F[LLM Evaluation<br/>~40 candidates<br/>~80k tokens]
+    F --> G[Ranked Results]
+```
+
+**Key Engineering:**
+- Reduced latency from **~2.5 min → ~40 sec**
+- Batched LLM calls with rate-limit-safe execution
+- Built custom testing framework with golden datasets
+
+---
+
+### 2. Hybrid RAG Architecture
+
+Full retrieval-augmented generation system combining lexical and semantic search.
+
+```mermaid
+flowchart TD
+    A[User Query] --> B[Query Transform]
+    B --> C1[BM25 Search]
+    B --> C2[Vector Search]
+    C1 --> D[Merge & Rank]
+    C2 --> D
+    D --> E[Context Assembly]
+    E --> F[LLM Response]
+```
+
+**Focus:** Deterministic behavior, controlled context size, testable retrieval outputs.
+
+---
+
+### 3. Cloud Deployment Architecture
+
+Designed and operated deployment pipelines across AWS and self-managed infrastructure.
+
+```mermaid
+flowchart LR
+    A[GitHub Push] --> B[GitHub Actions]
+    B --> C[Docker Build]
+    C --> D[ECR/Registry]
+    D --> E[ECS/Container]
+    E --> F[Health Check]
+    F -->|Pass| G[Traffic Switch]
+    F -->|Fail| H[Rollback]
+```
+
+**Implementations:**
+- **AWS:** ECS + ECR + CDK for infrastructure-as-code
+- **Linode:** Blue-green deployment, SSL, log rotation, near-zero downtime
+
+---
+
+### 4. Chrome Extension — LinkedIn Data Pipeline
+
+Recruiter-facing tool for structured LinkedIn profile extraction.
+
+```mermaid
+flowchart LR
+    A[Chrome Extension] --> B[LinkedIn Profile]
+    B --> C[Data Extraction]
+    C --> D[Lambda + API Gateway]
+    D --> E[DynamoDB]
+    E --> F[Client Format]
+```
+
+**Production usage:** ~70-80 API hits/day by recruiters.
+
+---
+
+### 5. LLM From Scratch
+
+Transformer-based language model following *Attention Is All You Need*.
+
+Built: Attention mechanism, embeddings, training loop, Streamlit UI for visualization.
+
+**Outcome:** Deep intuition into why LLMs behave unpredictably and why most failures are system-level.
+
+---
+
+## Design Philosophy
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  Design execution flows before writing code                 │
+│  Treat LLMs as unreliable components → add guardrails       │
+│  Validate outputs continuously, not just inputs             │
+│  Optimize for predictability before scale                   │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Education & Certifications
+
+**NMIMS** — MBATech (Computer Engineering + Finance) | 2021–2026
+
+Coursework: DSA, ML, AI, DBMS, Software Engineering, Financial Planning, Tech Management
+
+**Certifications:**
+- Generative AI with LLMs — DeepLearning.AI & AWS
+- Advanced Data Science & AI — IIT Madras
+
+---
+
+## Note on Repositories
+
+Some repositories contain architecture documentation only. Source code from client work is not shared due to IP policies, but system designs and implementation decisions are real and production-tested.
+
+---
+
+*Open to discussing LLM systems, backend architecture, and deployment patterns.*
