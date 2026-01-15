@@ -1,154 +1,230 @@
-# Rishi Sangare
-
-**Backend & LLM Systems Engineer**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/Rishi-19)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sangarerishi@gmail.com)
-
----
-
-## What I Do
-
-I build **production-grade backend systems** with a focus on LLM integration, search infrastructure, and cloud deployment. I specialize in taking complex, ambiguous requirements and turning them into structured, reliable, and testable systems.
-
 ```
-LLM APIs → Structured Pipelines → Validated Outputs → Production Deployment
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  ●  ●  ●   rishi@github:~/profile                                            │
+└──────────────────────────────────────────────────────────────────────────────┘
 ```
 
----
+<div align="center">
+  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Welcome+to+my+terminal.;Backend+%26+LLM+Systems+Engineer;Building+production-grade+AI+systems.)](https://git.io/typing-svg)
 
-## Technical Stack
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/Rishi-19)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:sangarerishi@gmail.com)
 
-| Domain | Technologies |
-|--------|-------------|
-| **Backend** | Python, FastAPI, Flask, REST APIs |
-| **Cloud** | AWS (ECS, ECR, Lambda, API Gateway, CDK), Linode, Docker |
-| **Search** | Elasticsearch, OpenSearch, Hybrid Search (BM25 + Vector) |
-| **AI/ML** | LLM APIs (OpenAI, Claude), RAG Systems, Model Fine-tuning |
-| **DevOps** | GitHub Actions, Blue-Green Deployment, CloudWatch |
+</div>
 
 ---
 
-## Systems I've Built
+### `rishi@github:~$` whoami
 
-### 1. Recruiter Copilot — LLM + Search Pipeline
+```yaml
+Name:      Rishi Sangare
+Role:      Backend & LLM Systems Engineer
+Location:  Mumbai, India
+Education: MBATech (CS + Finance) @ NMIMS | 2021-2026
 
-Production system that evaluates candidates against job descriptions using search + LLM reasoning.
+Focus:
+  - Production LLM Systems
+  - Search Infrastructure (Elasticsearch, OpenSearch)
+  - Cloud Architecture (AWS, Linode)
+  - API Pipeline Design
+
+Philosophy: "Treat LLMs as unreliable. Add guardrails. Validate everything."
+```
+
+---
+
+### `rishi@github:~$` cat tech_stack.json
+
+```json
+{
+  "languages": ["Python", "Java", "JavaScript", "SQL", "C++"],
+  "backend": ["FastAPI", "Flask", "REST APIs", "Async Pipelines"],
+  "cloud": ["AWS ECS", "ECR", "Lambda", "API Gateway", "CDK", "Docker", "Linode"],
+  "search": ["Elasticsearch", "OpenSearch", "Hybrid RAG", "BM25 + Vector"],
+  "ai_ml": ["LLM APIs", "OpenAI", "Claude", "Fine-tuning", "Transformers"],
+  "devops": ["GitHub Actions", "Blue-Green Deployment", "CloudWatch", "CI/CD"],
+  "tools": ["Postman", "APIDog", "Notion", "Slack", "Git"]
+}
+```
+
+---
+
+### `rishi@github:~$` ls projects/
+
+```
+drwxr-xr-x  recruiter-copilot/
+drwxr-xr-x  hybrid-rag/
+drwxr-xr-x  cloud-infra/
+drwxr-xr-x  chrome-extension/
+drwxr-xr-x  llm-from-scratch/
+```
+
+---
+
+#### `recruiter-copilot/` — LLM + Search Pipeline
+
+Production system evaluating candidates against job descriptions using search + LLM reasoning.
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#00d4ff', 'primaryTextColor': '#fff', 'lineColor': '#3fb950'}}}%%
 flowchart LR
     A[Job Description] --> B[Feature Extraction]
-    B --> C[Search Query Generation]
+    B --> C[Query Generation]
     C --> D[OpenSearch]
-    D --> E[Candidate Shortlist]
-    E --> F[LLM Evaluation<br/>~40 candidates<br/>~80k tokens]
+    D --> E[Candidate Pool]
+    E --> F[LLM Evaluation]
     F --> G[Ranked Results]
 ```
 
-**Key Engineering:**
-- Reduced latency from **~2.5 min → ~40 sec**
-- Batched LLM calls with rate-limit-safe execution
-- Built custom testing framework with golden datasets
+| Metric | Value |
+|--------|-------|
+| Latency Reduction | `2.5 min → 40 sec` |
+| Tokens per Batch | `~80,000` |
+| Candidates Evaluated | `~40 per request` |
 
 ---
 
-### 2. Hybrid RAG Architecture
+#### `hybrid-rag/` — Retrieval Augmented Generation
 
-Full retrieval-augmented generation system combining lexical and semantic search.
-
-```mermaid
-flowchart TD
-    A[User Query] --> B[Query Transform]
-    B --> C1[BM25 Search]
-    B --> C2[Vector Search]
-    C1 --> D[Merge & Rank]
-    C2 --> D
-    D --> E[Context Assembly]
-    E --> F[LLM Response]
-```
-
-**Focus:** Deterministic behavior, controlled context size, testable retrieval outputs.
-
----
-
-### 3. Cloud Deployment Architecture
-
-Designed and operated deployment pipelines across AWS and self-managed infrastructure.
+Full RAG system combining lexical (BM25) and semantic (vector) retrieval.
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#3fb950', 'primaryTextColor': '#fff', 'lineColor': '#00d4ff'}}}%%
 flowchart LR
-    A[GitHub Push] --> B[GitHub Actions]
-    B --> C[Docker Build]
-    C --> D[ECR/Registry]
-    D --> E[ECS/Container]
-    E --> F[Health Check]
-    F -->|Pass| G[Traffic Switch]
-    F -->|Fail| H[Rollback]
+    Q[Query] --> T[Transform]
+    T --> B[BM25]
+    T --> V[Vector]
+    B --> M[Merge]
+    V --> M
+    M --> R[Re-rank]
+    R --> C[Context]
+    C --> L[LLM]
 ```
 
-**Implementations:**
-- **AWS:** ECS + ECR + CDK for infrastructure-as-code
-- **Linode:** Blue-green deployment, SSL, log rotation, near-zero downtime
+| Design Constraint | Status |
+|-------------------|--------|
+| Deterministic Retrieval | ✓ |
+| Bounded Context | ✓ |
+| Testable Outputs | ✓ |
+| Anti-Hallucination | ✓ |
 
 ---
 
-### 4. Chrome Extension — LinkedIn Data Pipeline
+#### `cloud-infra/` — AWS + Linode CI/CD
+
+Designed deployment architecture across managed (AWS) and self-hosted (Linode) environments.
+
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#f778ba', 'primaryTextColor': '#fff', 'lineColor': '#00d4ff'}}}%%
+flowchart LR
+    subgraph AWS
+        A1[GitHub] --> A2[Actions] --> A3[ECR] --> A4[ECS]
+    end
+    subgraph Linode
+        L1[GitHub] --> L2[Actions] --> L3[Blue] & L4[Green]
+    end
+```
+
+| Feature | Implementation |
+|---------|---------------|
+| AWS | ECS + ECR + CDK (IaC) |
+| Linode | Blue-Green + Health Checks |
+| Rollback | Automatic on failure |
+
+---
+
+#### `chrome-extension/` — LinkedIn Data Pipeline
 
 Recruiter-facing tool for structured LinkedIn profile extraction.
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#ffa657', 'primaryTextColor': '#fff', 'lineColor': '#3fb950'}}}%%
 flowchart LR
-    A[Chrome Extension] --> B[LinkedIn Profile]
-    B --> C[Data Extraction]
-    C --> D[Lambda + API Gateway]
-    D --> E[DynamoDB]
-    E --> F[Client Format]
+    E[Extension] --> L[LinkedIn]
+    L --> X[Extract]
+    X --> A[Lambda]
+    A --> D[DynamoDB]
+    D --> R[Client Format]
 ```
 
-**Production usage:** ~70-80 API hits/day by recruiters.
+| Metric | Value |
+|--------|-------|
+| Daily API Hits | `~70-80` |
+| Active Users | Recruiters @ Sachi (Japan) |
+| Uptime | `99.9%` |
 
 ---
 
-### 5. LLM From Scratch
+#### `llm-from-scratch/` — Transformer Implementation
 
-Transformer-based language model following *Attention Is All You Need*.
-
-Built: Attention mechanism, embeddings, training loop, Streamlit UI for visualization.
-
-**Outcome:** Deep intuition into why LLMs behave unpredictably and why most failures are system-level.
-
----
-
-## Design Philosophy
+Built a language model following *Attention Is All You Need*.
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  Design execution flows before writing code                 │
-│  Treat LLMs as unreliable components → add guardrails       │
-│  Validate outputs continuously, not just inputs             │
-│  Optimize for predictability before scale                   │
-└─────────────────────────────────────────────────────────────┘
+Components Built:
+├── Multi-Head Self-Attention
+├── Positional Embeddings  
+├── Feed-Forward Networks
+├── Training Loop
+└── Streamlit Visualization UI
+
+Outcome: Deep understanding of why LLM failures are system-level, not model-level.
 ```
 
 ---
 
-## Education & Certifications
+### `rishi@github:~$` git log --oneline experience
 
-**NMIMS** — MBATech (Computer Engineering + Finance) | 2021–2026
+```
+Feb 2025  LD Technologies ──────────── Backend & LLM Systems Engineer
+          │ FastAPI, AWS CDK, OpenSearch, LLM Pipelines
+          │ Chrome Extension, CI/CD, Production Systems
 
-Coursework: DSA, ML, AI, DBMS, Software Engineering, Financial Planning, Tech Management
+Jul 2024  Splan Infocom ────────────── Backend API Developer
+          │ Invoice Processing API, OpenAI, AWS EC2
 
-**Certifications:**
-- Generative AI with LLMs — DeepLearning.AI & AWS
-- Advanced Data Science & AI — IIT Madras
+Jun 2024  Paragon Dynamics ─────────── Backend Intern
+          │ Logistics Chatbot, Ledger Reconciliation
+
+Dec 2023  Mitwa.ai ─────────────────── Founding Engineer
+          │ MERN Stack, LLM Fine-tuning (Mistral-7B), RunPod
+```
 
 ---
 
-## Note on Repositories
+### `rishi@github:~$` cat education.txt
 
-Some repositories contain architecture documentation only. Source code from client work is not shared due to IP policies, but system designs and implementation decisions are real and production-tested.
+```
+NMIMS Mumbai
+├── Degree: MBATech (Computer Engineering + Finance)
+├── Duration: 2021 - 2026
+├── GPA: 3.09 / 4.00
+└── Coursework: DSA, ML, AI, DBMS, Financial Planning, Tech Management
+
+Certifications:
+├── Generative AI with LLMs — DeepLearning.AI & AWS
+└── Advanced Data Science & AI — IIT Madras
+```
 
 ---
 
-*Open to discussing LLM systems, backend architecture, and deployment patterns.*
+### `rishi@github:~$` cat README.txt
+
+```
+Note on Repositories:
+├── Some repos contain architecture documentation only
+├── Client source code not shared (IP policies)
+└── System designs and decisions are real + production-tested
+
+Happy to discuss tradeoffs and implementation details.
+```
+
+---
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  rishi@github:~/profile$ exit                                                │
+│  Connection closed.                                                          │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
