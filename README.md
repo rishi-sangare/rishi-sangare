@@ -292,23 +292,14 @@ Outcome: Understanding why LLM failures are system-level, not model-level.
 
 <br/><br/>
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                           PRODUCTION METRICS                                 ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║   ⚡ Latency Optimization          2.5 min  →  40 sec                        ║
-║   🔥 Tokens Processed/Batch        ~80,000                                   ║
-║   📊 Daily API Hits                ~70-80 (Chrome Extension)                 ║
-║   🟢 Production Uptime             99.9%                                     ║
-║   ☁️  Systems Deployed              3 (AWS + Linode)                          ║
-║   👥 Candidates Evaluated/Req      ~40                                       ║
-║   📅 Production Experience         11+ months @ LD Technologies             ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+<!-- Contribution Snake Animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rishi-sangare/rishi-sangare/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rishi-sangare/rishi-sangare/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/rishi-sangare/rishi-sangare/output/github-snake-dark.svg" />
+</picture>
 
-<br/>
+<br/><br/>
 
 <!-- Activity Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=rishi-sangare&theme=github-compact&hide_border=true&bg_color=0d1117&color=00d4ff&line=3fb950&point=f778ba" width="100%"/>
