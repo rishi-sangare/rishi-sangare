@@ -292,9 +292,15 @@ Outcome: Understanding why LLM failures are system-level, not model-level.
 
 <br/><br/>
 
-<!-- GitHub Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=rishi-sangare&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=3fb950&text_color=c9d1d9" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com?user=rishi-sangare&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00D4FF&fire=3FB950&currStreakLabel=00D4FF" height="165"/>
+<!-- GitHub Stats with Private Contributions -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=rishi-sangare&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=3fb950&text_color=c9d1d9"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=rishi-sangare&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=3fb950&text_color=c9d1d9" height="165"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=rishi-sangare&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00D4FF&fire=3FB950&currStreakLabel=00D4FF"/>
+  <img src="https://streak-stats.demolab.com?user=rishi-sangare&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00D4FF&fire=3FB950&currStreakLabel=00D4FF" height="165"/>
+</picture>
 
 <br/><br/>
 
