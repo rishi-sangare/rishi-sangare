@@ -4,6 +4,7 @@
 </picture>
 
 <p align="center">
+  <a href="https://rishi-sangare.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-rishi--sangare.github.io-FF6A3D?style=for-the-badge&logo=githubpages&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/rishi-sangare"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-rishi--sangare-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://huggingface.co/Rishi-19"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-Rishi--19-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"></a>
   <a href="mailto:sangarerishi@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-sangarerishi%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
@@ -16,6 +17,8 @@
 </picture>
 
 ### What I do
+
+**Portfolio: [rishi-sangare.github.io](https://rishi-sangare.github.io)**, a forward pass through a language model that ends in me. Ask it a question.
 
 I build **production LLM systems end to end** at [LD Technologies](https://github.com/Saachi-AI) (since Feb 2025): retrieval, orchestration, evals, security and the infra that keeps them up. My clients include a large Japanese recruiting database platform and a UK recruitment CRM, and I ship our own SaaS products.
 
