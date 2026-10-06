@@ -1,337 +1,98 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Rishi Sangare, AI / LLM Systems Engineer. I ship LLM products to production, and prove they work." src="assets/hero-light.svg" width="100%">
+</picture>
 
-<!-- Terminal Window Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=60&section=header"/>
+<p align="center">
+  <a href="https://www.linkedin.com/in/rishi-sangare"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-rishi--sangare-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://huggingface.co/Rishi-19"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-Rishi--19-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"></a>
+  <a href="mailto:sangarerishi@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-sangarerishi%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://github.com/rishi-sangare/case-studies"><img alt="Case studies" src="https://img.shields.io/badge/Read-Case%20studies-8957e5?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img alt="372 pull requests authored, 253K+ CRM records migrated, recall@10 0.19 to 0.57, 24-model LLM bake-off, 4 production AI products" src="assets/stats-light.svg" width="100%">
+</picture>
+
+### What I do
+
+I build **production LLM systems end to end** at [LD Technologies](https://github.com/Saachi-AI) (since Feb 2025): retrieval, orchestration, evals, security and the infra that keeps them up. My clients include a large Japanese recruiting database platform and a UK recruitment CRM, and I ship our own SaaS products.
+
+- **LLM products, not demos.** Multi-turn LLM flows, multi-provider fallbacks, structured output that survives bad model responses.
+- **Search and evals.** Elasticsearch relevance, golden sets, recall@k, LLM-as-judge, bias probes. I measure before I claim.
+- **Ownership.** CI/CD with rollback, Slack alerting, security hardening, and incident response when things break.
+- **AI-native speed.** I run coding agents (Claude Code, MCP, browser automation) as a daily force multiplier, with guardrails.
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-dark.svg">
+  <img alt="Production pipeline: request, clarify (3-turn LLM), retrieve (Elasticsearch, recall@10 0.19 to 0.57), evaluate (parallel LLM judges), deliver (HMAC webhook), all driven by an eval harness" src="assets/pipeline-light.svg" width="100%">
+</picture>
+
+### Featured work
 
 <table>
 <tr>
-<td width="100%" align="left" style="border: none;">
-
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────────┐
-│  🔴 🟡 🟢   rishi@github:~/profile                                                    ─ □ x  │
-├─────────────────────────────────────────────────────────────────────────────────────────────┤
-```
-
-</td>
+<td width="50%"><a href="https://github.com/rishi-sangare/case-studies/blob/main/refinecv.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-refinecv-dark.svg"><img alt="RefineCV: B2B CV-formatting SaaS" src="assets/card-refinecv-light.svg" width="100%"></picture></a></td>
+<td width="50%"><a href="https://github.com/rishi-sangare/case-studies/blob/main/recruiter-copilot.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-copilot-dark.svg"><img alt="Recruiter Copilot: AI candidate scoring Chrome extension" src="assets/card-copilot-light.svg" width="100%"></picture></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/rishi-sangare/case-studies/blob/main/crm-migration.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-migration-dark.svg"><img alt="CRM migration: 18 GB SQL Server to REST-only CRM" src="assets/card-migration-light.svg" width="100%"></picture></a></td>
+<td width="50%"><a href="https://github.com/rishi-sangare/cosmeon-fs-lite"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-cosmeon-dark.svg"><img alt="COSMEON FS-LITE: orbital file system simulator" src="assets/card-cosmeon-light.svg" width="100%"></picture></a></td>
 </tr>
 </table>
 
-<!-- Animated Typing with Cursor -->
-<a href="https://github.com/rishi-sangare">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%24+echo+%22Welcome+to+my+terminal%22;%24+./init_profile.sh" alt="Typing SVG" />
-</a>
+<p align="center"><sub>Most of my work is in private client repos. The <a href="https://github.com/rishi-sangare/case-studies">case studies</a> explain the architecture, the decisions and the measured results, without client code.</sub></p>
 
-<br/>
+### Open source
 
-<a href="https://github.com/rishi-sangare">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2000&pause=3000&color=3FB950&center=true&vCenter=true&repeat=true&width=500&height=30&lines=%E2%96%88+System+initialized.+Loading+modules..." alt="Typing SVG" />
-</a>
+- **keras-team/keras** · [#22407](https://github.com/keras-team/keras/pull/22407) (merged): implemented `numpy.view` for the OpenVINO backend.
+- **Hugging Face** · [Rishi-19](https://huggingface.co/Rishi-19): Mistral-7B fine-tunes (including DPO on 6k and 18k-example datasets) for an AI wellbeing companion, plus a DistilBERT profanity classifier.
+- **Smart India Hackathon** 2024 and 2025: sign-language detection; a document-processing platform for Kochi Metro (FastAPI, MinIO, Postgres, Gemini).
 
-<br/><br/>
+### Toolbox
 
-<!-- Social Badges -->
-[![LinkedIn](https://img.shields.io/badge/-%40rishi--sangare-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
-[![HuggingFace](https://img.shields.io/badge/-Rishi--19-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Rishi-19)
-[![Gmail](https://img.shields.io/badge/-sangarerishi-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sangarerishi@gmail.com)
-[![GitHub](https://img.shields.io/badge/-rishi--sangare-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+<p align="center">
+  <img alt="Python, FastAPI, TypeScript, React, Next.js, Node.js, Postgres, Supabase, Elasticsearch, Docker, AWS, GitHub Actions, Cloudflare, Tailwind, Astro, PyTorch, Linux" src="https://skillicons.dev/icons?i=py,fastapi,ts,react,nextjs,nodejs,postgres,supabase,elasticsearch,docker,aws,githubactions,cloudflare,tailwind,astro,pytorch,linux&perline=9">
+</p>
 
-</div>
+<p align="center"><sub>Also: Cerebras · OpenRouter · Bedrock · Claude · OpenAI · Gemini · MCP · n8n · Playwright · pytest · Vitest · WeasyPrint · Chrome MV3 · MLX</sub></p>
 
----
+### Contribution graph, in 3D
 
-<img src="https://img.shields.io/badge/rishi%40github%3A~%24-whoami-00D4FF?style=for-the-badge&labelColor=0d1117&color=00D4FF"/>
-
-```yaml
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                             │
-│   Name           Rishi Sangare                                              │
-│   Role           Backend & LLM Systems Engineer                             │
-│   Location       Mumbai, India                                              │
-│   Education      MBATech (CS + Finance) @ NMIMS | 2021-2026                │
-│                                                                             │
-│   Focus          ▸ Production LLM Systems                                   │
-│                  ▸ Search Infrastructure                                    │
-│                  ▸ Cloud Architecture                                       │
-│                  ▸ API Pipeline Design                                      │
-│                                                                             │
-│   Philosophy     "Treat LLMs as unreliable. Add guardrails. Validate."     │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-<img src="https://img.shields.io/badge/rishi%40github%3A~%24-cat%20tech__stack.json-3FB950?style=for-the-badge&labelColor=0d1117"/>
-
-```json
-{
-  "languages": {
-    "primary": ["Python", "SQL"],
-    "secondary": ["Java", "JavaScript", "C++"]
-  },
-  "backend": {
-    "frameworks": ["FastAPI", "Flask"],
-    "patterns": ["REST APIs", "Async Pipelines", "Event-Driven"]
-  },
-  "cloud": {
-    "aws": ["ECS", "ECR", "Lambda", "API Gateway", "CDK", "CloudWatch"],
-    "containers": ["Docker", "Docker Compose"],
-    "other": ["Linode", "RunPod"]
-  },
-  "search": {
-    "engines": ["Elasticsearch", "OpenSearch"],
-    "techniques": ["Hybrid RAG", "BM25", "Vector Search", "Re-ranking"]
-  },
-  "ai_ml": {
-    "apis": ["OpenAI", "Claude", "Gemini"],
-    "local": ["Fine-tuning", "Transformers", "Mistral-7B"]
-  },
-  "devops": {
-    "ci_cd": ["GitHub Actions", "Blue-Green Deployment"],
-    "monitoring": ["CloudWatch", "Slack Alerts", "Dozzle"]
-  }
-}
-```
-
----
-
-<img src="https://img.shields.io/badge/rishi%40github%3A~%24-ls%20--la%20projects%2F-F778BA?style=for-the-badge&labelColor=0d1117"/>
-
-```
-total 5
-drwxr-xr-x   recruiter-copilot    4.0K   production   LLM + Search Pipeline
-drwxr-xr-x   hybrid-rag           3.2K   production   RAG Architecture
-drwxr-xr-x   cloud-infra          2.8K   production   AWS + Linode CI/CD
-drwxr-xr-x   chrome-extension     2.1K   production   LinkedIn Data Pipeline
-drwxr-xr-x   llm-from-scratch     1.5K   learning     Transformer Implementation
-```
-
----
-
-<img src="https://img.shields.io/badge/▸-recruiter--copilot-00D4FF?style=flat-square&labelColor=0d1117"/>
-
-**Production LLM + Search Pipeline** — Evaluates 40+ candidates per job description
-
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#00d4ff', 'edgeLabelBackground':'#0d1117', 'tertiaryColor': '#161b22', 'lineColor': '#3fb950', 'textColor': '#c9d1d9'}}}%%
-flowchart LR
-    A[📄 Job Description] --> B[🔍 Feature Extraction]
-    B --> C[⚡ Query Generation]
-    C --> D[(OpenSearch)]
-    D --> E[👥 Candidate Pool]
-    E --> F[🤖 LLM Evaluation]
-    F --> G[📊 Ranked Results]
-    
-    style A fill:#1f6feb,stroke:#00d4ff
-    style D fill:#238636,stroke:#3fb950
-    style F fill:#8957e5,stroke:#bc8cff
-    style G fill:#da3633,stroke:#f85149
-```
-
-| Metric | Before | After |
-|:-------|:------:|:-----:|
-| **Latency** | `2.5 min` | `40 sec` |
-| **Tokens/Batch** | — | `~80,000` |
-| **Candidates** | — | `~40/request` |
-
----
-
-<img src="https://img.shields.io/badge/▸-hybrid--rag-3FB950?style=flat-square&labelColor=0d1117"/>
-
-**Retrieval Augmented Generation** — BM25 + Vector dual retrieval
-
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#3fb950', 'tertiaryColor': '#161b22', 'lineColor': '#00d4ff'}}}%%
-flowchart LR
-    Q[🔎 Query] --> T[Transform]
-    T --> B[BM25<br/>Lexical]
-    T --> V[Vector<br/>Semantic]
-    B --> M[🔀 Merge]
-    V --> M
-    M --> R[Re-rank]
-    R --> C[📝 Context]
-    C --> L[🤖 LLM]
-    
-    style B fill:#1f6feb,stroke:#00d4ff
-    style V fill:#8957e5,stroke:#bc8cff
-    style M fill:#238636,stroke:#3fb950
-    style L fill:#da3633,stroke:#f85149
-```
-
-```
-✓ Deterministic Retrieval    ✓ Bounded Context    ✓ Testable    ✓ Anti-Hallucination
-```
-
----
-
-<img src="https://img.shields.io/badge/▸-cloud--infra-F778BA?style=flat-square&labelColor=0d1117"/>
-
-**AWS + Linode Deployment** — Blue-Green CI/CD with zero downtime
-
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#f778ba', 'tertiaryColor': '#161b22', 'lineColor': '#00d4ff'}}}%%
-flowchart LR
-    subgraph AWS ["☁️ AWS Stack"]
-        A1[GitHub] --> A2[Actions]
-        A2 --> A3[ECR]
-        A3 --> A4[ECS Fargate]
-    end
-    
-    subgraph LIN ["🖥️ Linode Stack"]
-        L1[GitHub] --> L2[Actions]
-        L2 --> L3[🔵 Blue]
-        L2 --> L4[🟢 Green]
-    end
-    
-    style A4 fill:#ff7b00,stroke:#ffa657
-    style L3 fill:#1f6feb,stroke:#00d4ff
-    style L4 fill:#238636,stroke:#3fb950
-```
-
-| Environment | Stack |
-|:------------|:------|
-| **AWS** | ECS + ECR + CDK + API Gateway |
-| **Linode** | Blue-Green + Health Checks + Rollback |
-
----
-
-<img src="https://img.shields.io/badge/▸-chrome--extension-FFA657?style=flat-square&labelColor=0d1117"/>
-
-**LinkedIn Data Pipeline** — Production tool for recruiters
-
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#ffa657', 'tertiaryColor': '#161b22', 'lineColor': '#3fb950'}}}%%
-sequenceDiagram
-    participant E as 🔌 Extension
-    participant L as 💼 LinkedIn
-    participant A as ⚡ Lambda
-    participant D as 🗄️ DynamoDB
-    
-    E->>L: Extract Profile
-    E->>A: POST /candidate
-    A->>D: Upsert Record
-    A->>E: Structured Response
-```
-
-| Production Stats | |
-|:-----------------|:--|
-| Daily API Hits | `~70-80` |
-| Active Users | Sachi (Japan) |
-| Uptime | `99.9%` |
-
----
-
-<img src="https://img.shields.io/badge/▸-llm--from--scratch-FFD93D?style=flat-square&labelColor=0d1117"/>
-
-**Transformer Implementation** — Following *Attention Is All You Need*
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    TRANSFORMER BLOCK                        │
-│  ┌───────────────────────────────────────────────────────┐  │
-│  │              Multi-Head Self-Attention                │  │
-│  │         Q ──┐                                         │  │
-│  │         K ──┼──► Scaled Dot-Product ──► Concat        │  │
-│  │         V ──┘                                         │  │
-│  └───────────────────────────────────────────────────────┘  │
-│                           │                                 │
-│                      Add & Norm                             │
-│                           │                                 │
-│  ┌───────────────────────────────────────────────────────┐  │
-│  │               Feed Forward Network                    │  │
-│  └───────────────────────────────────────────────────────┘  │
-│                           │                                 │
-│                      Add & Norm                             │
-└─────────────────────────────────────────────────────────────┘
-
-Outcome: Understanding why LLM failures are system-level, not model-level.
-```
-
----
-
-<img src="https://img.shields.io/badge/rishi%40github%3A~%24-git%20log%20--oneline%20experience-8957E5?style=for-the-badge&labelColor=0d1117"/>
-
-```diff
-+ Feb 2025   LD Technologies ─────────────── Backend & LLM Systems Engineer
-             │ FastAPI • AWS CDK • OpenSearch • LLM Pipelines • Chrome Extension
-
-  Jul 2024   Splan Infocom ──────────────── Backend API Developer
-             │ Invoice Processing • OpenAI API • AWS EC2
-
-  Jun 2024   Paragon Dynamics ───────────── Backend Intern
-             │ Logistics Chatbot • Ledger Reconciliation
-
-  Dec 2023   Mitwa.ai ───────────────────── Founding Engineer
-             │ MERN Stack • LLM Fine-tuning (Mistral-7B) • RunPod
-```
-
----
-
-<img src="https://img.shields.io/badge/rishi%40github%3A~%24-cat%20education.txt-DA3633?style=for-the-badge&labelColor=0d1117"/>
-
-```
-╔═══════════════════════════════════════════════════════════════════════════╗
-║  NMIMS Mumbai                                                             ║
-║  ├── Degree     MBATech (Computer Engineering + Finance)                  ║
-║  ├── Duration   2021 - 2026                                               ║
-║  ├── GPA        3.09 / 4.00                                               ║
-║  └── Courses    DSA • ML • AI • DBMS • Financial Planning • Tech Mgmt    ║
-╠═══════════════════════════════════════════════════════════════════════════╣
-║  Certifications                                                           ║
-║  ├── Generative AI with LLMs ──────── DeepLearning.AI & AWS              ║
-║  └── Advanced Data Science & AI ───── IIT Madras                         ║
-╚═══════════════════════════════════════════════════════════════════════════╝
-```
-
----
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/rishi%40github%3A~%24-neofetch-00D4FF?style=for-the-badge&labelColor=0d1117"/>
-
-<br/><br/>
-
-<!-- Contribution Snake Animation -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rishi-sangare/rishi-sangare/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rishi-sangare/rishi-sangare/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/rishi-sangare/rishi-sangare/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg">
+  <img alt="3D contribution calendar" src="profile-3d-contrib/profile-green-animate.svg" width="100%">
 </picture>
 
-<br/><br/>
+<details>
+<summary><b>More projects</b></summary>
+<br>
 
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rishi-sangare&theme=github-compact&hide_border=true&bg_color=0d1117&color=00d4ff&line=3fb950&point=f778ba" width="100%"/>
+| Project | What it is | Stack |
+|---|---|---|
+| Tamago AI services | LLM candidate ↔ job matching for a Japanese recruiting database: 3-turn pre-screening, ES retrieval, eval harness | FastAPI · Elasticsearch · Cerebras · Supabase |
+| Hybrid search ingestion | BM25 + vector search over job descriptions on AWS OpenSearch, switchable LLM extraction | FastAPI · OpenSearch · AWS CDK |
+| LinkedIn → ATS extension | Recruiter tool syncing LinkedIn profiles into a client ATS | Chrome · Lambda · DynamoDB |
+| Revenue Rail | Self-hosted n8n replacing Zapier: Stripe → Thinkific → Slack, duplicate-safe, 11/11 failure scenarios pass | n8n · Postgres · Docker |
+| Signal Lab | Privacy-first Meta Conversions API relay with Apple AdAttributionKit JWS verification | Next.js · TypeScript |
+| AI Video Studio | Agent-operated video pipeline with on-device ASR/TTS and automated QA gates | Python · MLX · Remotion |
+| Consistency Check | Does an LLM answer the same in English, Hindi and Hinglish? | FastAPI · Ollama · Claude |
+| [My_LLM](https://github.com/rishi-sangare/My_LLM) | A transformer from scratch | Python |
 
-</div>
+</details>
 
----
+<details>
+<summary><b>How I work</b></summary>
+<br>
 
-<img src="https://img.shields.io/badge/rishi%40github%3A~%24-cat%20README.txt-6E7681?style=for-the-badge&labelColor=0d1117"/>
+1. **Plan in public.** A short design doc or diagram before code, and plain-English explainers for non-engineers.
+2. **Measure, then claim.** Golden sets and holdouts. When I caught my own +30% reranker result inflated, I reported the honest +12.9%.
+3. **Guardrails on everything.** Staging-first releases, idempotent writes, LLM output validation, spend caps.
+4. **Treat LLMs as unreliable components.** Validate, fall back, alert.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│  Some repositories contain architecture documentation only.                │
-│  Client source code not shared due to IP policies.                         │
-│  System designs and decisions are real + production-tested.                │
-│                                                                             │
-│  Happy to discuss tradeoffs and implementation details.                    │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+</details>
 
----
-
-<div align="center">
-
-<a href="https://github.com/rishi-sangare">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2000&pause=5000&color=6E7681&center=true&vCenter=true&repeat=true&width=400&height=25&lines=rishi%40github%3A~%24+exit;Connection+closed.+%E2%96%88" alt="Typing SVG" />
-</a>
-
-<br/><br/>
-
-```
-└──────────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
-</div>
+<p align="center"><br><b>Open to full-time remote roles</b> · AI / LLM engineering · search & relevance · applied AI<br><sub>Based in Mumbai (IST) · comfortable working US hours · <a href="mailto:sangarerishi@gmail.com">sangarerishi@gmail.com</a></sub></p>
