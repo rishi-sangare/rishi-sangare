@@ -49,6 +49,16 @@ I build **production LLM systems end to end** at [LD Technologies](https://githu
 
 <p align="center"><sub>Most of my work is in private client repos. The <a href="https://github.com/rishi-sangare/case-studies">case studies</a> explain the architecture, the decisions and the measured results, without client code.</sub></p>
 
+### Voice AI and automation builds
+
+Working systems I build and record before I pitch. Each one has a video walkthrough.
+
+| Build | What it does | Stack |
+|---|---|---|
+| **[Wholesale Voice Desk](https://github.com/rishi-sangare/wholesale-voice-desk)** · [video](https://rishi-sangare.github.io/wholesale-voice-desk/) | Real estate AI desk: a form lead gets an AI call in under a second, the agent qualifies the seller and books a walkthrough, then Make routes it hot / warm / cold / retry / do-not-call into the CRM. Consent and DNC rules built in. | Vapi · Make.com · Supabase |
+| **[Bolna Call Lab](https://github.com/rishi-sangare/bolna-call-lab)** · [video](https://rishi-sangare.github.io/bolna-call-lab/) | Reproduces voice calls that drop at ~12 s with the real Bolna engine, and diagnoses the cause from its own logs. | Bolna · Python · Deepgram |
+| **[Telegram content bot](https://github.com/rishi-sangare/telegram-content-bot-demo)** · [video](https://rishi-sangare.github.io/telegram-content-bot-demo/) | Brief, upload and approval flow for a content team, built natively in Make, with Google Drive and Asana. | Make.com · Telegram · Drive · Asana |
+
 ### Open source
 
 - **keras-team/keras** · [#22407](https://github.com/keras-team/keras/pull/22407) (merged): implemented `numpy.view` for the OpenVINO backend.
@@ -61,7 +71,7 @@ I build **production LLM systems end to end** at [LD Technologies](https://githu
   <img alt="Python, FastAPI, TypeScript, React, Next.js, Node.js, Postgres, Supabase, Elasticsearch, Docker, AWS, GitHub Actions, Cloudflare, Tailwind, Astro, PyTorch, Linux" src="https://skillicons.dev/icons?i=py,fastapi,ts,react,nextjs,nodejs,postgres,supabase,elasticsearch,docker,aws,githubactions,cloudflare,tailwind,astro,pytorch,linux&perline=9">
 </p>
 
-<p align="center"><sub>Also: Cerebras · OpenRouter · Bedrock · Claude · OpenAI · Gemini · MCP · n8n · Playwright · pytest · Vitest · WeasyPrint · Chrome MV3 · MLX</sub></p>
+<p align="center"><sub>Also: Cerebras · OpenRouter · Bedrock · Claude · OpenAI · Gemini · MCP · Vapi · Make.com · n8n · Playwright · pytest · Vitest · WeasyPrint · Chrome MV3 · MLX</sub></p>
 
 ### Contribution graph, in 3D
 
